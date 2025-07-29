@@ -1,9 +1,24 @@
+/* For Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 173, 179);
+  border-radius: 4px;
+}
+
 #tasks {
   padding: 1rem;
   border-radius: 8px;
   max-height: 60vh;
-  overflow: auto;
-  background-color: #3a2c54;
+  overflow: visible;
+  background-color: #0b5b81;
 }
 
 header {
@@ -29,7 +44,7 @@ menu {
 menu button {
   font: inherit;
   cursor: pointer;
-  background-color: #9965dd;
+  background-color: #32dee4;
   border-radius: 4px;
   border: none;
   padding: 0.35rem 0.8rem;
@@ -38,7 +53,7 @@ menu button {
 
 menu button:hover,
 menu button:active {
-  background-color: #a565dd;
+  background-color: #a0adb3;
 }
 
 ul {

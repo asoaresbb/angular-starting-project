@@ -1,7 +1,7 @@
 article {
   padding: 1rem;
   color: #25113d;
-  background-color: #bf9ee5;
+  background-color: #ffffff;
 }
 
 h2 {
@@ -21,8 +21,8 @@ time {
   font: inherit;
   font-size: 0.9rem;
   cursor: pointer;
-  background-color: #380774;
-  color: #decdf2;
+  background-color: #0b5b81;
+  color: #ffffff;
   border-radius: 4px;
   padding: 0.5rem 1.5rem;
   border: none;
@@ -32,6 +32,6 @@ time {
 
 .actions button:hover,
 .actions button:active {
-  background-color: #4a0774;
+  background-color: #a0adb3;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
